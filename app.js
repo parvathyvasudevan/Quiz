@@ -124,7 +124,7 @@ const questions = [
     question: "Enzyme that digests protein in stomach?",
     options: ["Amylase", "Lipase", "Pepsin", "Trypsin"],
     answer: "Pepsin"
-  }
+  },
   {
     question: "Largest state in India (in terms of area)?",
     options: ["Maharashtra", "Madhya Pradesh", "Rajasthan", "Uttar Pradesh"],
