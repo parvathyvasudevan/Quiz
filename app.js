@@ -189,8 +189,8 @@ const questions = [
     question: "1st Indian to win gold medal in hockey in Olympics?",
     options: ["Balbir Singh", "Dhyan Chand", "P. R. Sreejesh", "Harmanpreet Singh"],
     answer: "Dhyan Chand"
-  }
- {
+  },
+  {
     question: "Isotope used as nuclear reactor fuel?",
     options: ["U-235", "U-238", "C-14", "Pu-239"],
     answer: "U-235"
@@ -334,8 +334,8 @@ const questions = [
     question: "Quicklime is?",
     options: ["CaCO₃", "CaO", "Ca(OH)₂", "MgO"],
     answer: "CaO"
-  }
-{
+  },
+  {
     question: "Who introduced Ryotwari System in India?",
     options: ["Thomas Munro", "Lord Dalhousie", "Cornwallis", "Wellesley"],
     answer: "Thomas Munro"
