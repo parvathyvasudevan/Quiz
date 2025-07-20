@@ -1,49 +1,211 @@
-// Example questions
 const questions = [
   {
-    question: "Zaskas & Nubra tributaries of?",
-    options: ["Ganga", "Yamuna", "Indus", "Brahmaputra"],
-    answer: "Indus"
+    question: "Article 14 of the Indian Constitution deals with?",
+    options: ["Right to Freedom", "Right to Equality", "Right to Property", "Right to Education"],
+    answer: "Right to Equality"
   },
   {
-    question: "Who wrote 'Once a Dancer' autobiography?",
-    options: ["Rukmini Devi", "Mallika Sarabhai", "Allegra Kent", "Yamini Krishnamurthy"],
-    answer: "Allegra Kent"
+    question: "Which folk dance is from Punjab?",
+    options: ["Bihu", "Garba", "Bhangra", "Yakshagana"],
+    answer: "Bhangra"
   },
   {
-    question: "Who became the first woman Chief Justice of Uttarakhand High Court in Feb 2021?",
-    options: ["Gita Mittal", "Ritu Bahri", "Vineeta Sharma", "Hima Kohli"],
-    answer: "Ritu Bahri"
+    question: "Who discovered the Indus Valley Civilization?",
+    options: ["Lord Ripon", "Daya Ram Sahni", "Sir John Marshall", "R.D. Banerjee"],
+    answer: "Daya Ram Sahni"
+  },
+  
+  {
+    question: "Jaldapara National Park is located in which state?",
+    options: ["West Bengal", "Assam", "Odisha", "Jharkhand"],
+    answer: "West Bengal"
   },
   {
-    question: "Adelang Mongyu is celebrated in which Indian state?",
-    options: ["Manipur", "Nagaland", "Mizoram", "Assam"],
-    answer: "Nagaland"
+    question: "Orang National Park is in?",
+    options: ["Meghalaya", "Assam", "Sikkim", "Nagaland"],
+    answer: "Assam"
   },
   {
-    question: "Which chemical is used for staining chromosomes?",
-    options: ["Eosin", "Safranin", "Acetocarmine", "Methylene Blue"],
-    answer: "Acetocarmine"
+    question: "Bengaluru is situated on the banks of which river?",
+    options: ["Kaveri", "Krishna", "Vrishabhavathi", "Tungabhadra"],
+    answer: "Vrishabhavathi"
   },
   {
-    question: "All natural earthquakes occur in which layer?",
-    options: ["Crust", "Lithosphere", "Mantle", "Asthenosphere"],
-    answer: "Lithosphere"
+    question: "Medicine for Tuberculosis?",
+    options: ["Isoniazid", "Rifampicin", "Streptomycin", "Pyrazinamide"],
+    answer: "Rifampicin"
   },
   {
-    question: "Grase Masiha dance belongs to which state?",
-    options: ["Odisha", "Jharkhand", "Chhattisgarh", "Madhya Pradesh"],
-    answer: "Chhattisgarh"
+    question: "Who invented the Thermometer?",
+    options: ["Galileo", "Newton", "Benjamin", "Fahrenheit"],
+    answer: "Benjamin"
   },
   {
-    question: "Lambadi is the folk dance of which Indian tribe?",
-    options: ["Santhals", "Banjaras", "Bhils", "Todas"],
-    answer: "Banjaras"
+    question: "What is the maximum quantity of gas in the atmosphere?",
+    options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    answer: "Nitrogen"
   },
   {
-    question: "Which planet has the largest number of natural satellites?",
-    options: ["Jupiter", "Saturn", "Uranus", "Neptune"],
-    answer: "Saturn"
+    question: "Amount of nitrogen in producer gas?",
+    options: ["20%", "60%", "80%", "40%"],
+    answer: "60%"
+  },
+  {
+    question: "Which resistant compound is found in petrol?",
+    options: ["Endosulfan", "Endoxylene", "Endoxylgent", "Endospermic"],
+    answer: "Endoxylgent"
+  },
+  {
+    question: "What is unsolicited electronic message sent for promotional purposes called?",
+    options: ["Spam", "Junk", "Bot", "Cache"],
+    answer: "Spam"
+  },
+  {
+    question: "How much iceberg floats above sea surface while floating in the sea?",
+    options: ["60%", "90%", "30%", "10%"],
+    answer: "10%"
+  },
+  {
+    question: "What does a sudden drop in aerodymanic reading indicate?",
+    options: ["Rainy weather", "Sunny weather", "Stormy weather", "Windy weather"],
+    answer: "Stormy"
+  },
+  {
+    question: "What is another name for RDX?",
+    options: ["TNT", "C4", "Cyclonite", "Amatol"],
+    answer: "Cyclonite"
+  },
+  {
+    question: "Who invented Nylon?",
+    options: ["Marie Curie", "Dr. Wallace H. Carothers", "Louis Pasteur", "Benjamin Franklin"],
+    answer: "Dr. Wallace H. Carothers"
+  },
+  {
+    question: "Who discovered Mitochondria?",
+    options: ["Robert Hooke", "Richard Altmann", "Golgi", "Virchow"],
+    answer: "Richard Altmann"
+  },
+  {
+    question: "Which gas is used to ripen green plant's fruits artificially?",
+    options: ["Methane", "Ethylene", "Ammonia", "Oxygen"],
+    answer: "Ethylene"
+  },
+  {
+    question: "Hydrolysis of sucrose produces?",
+    options: ["Fructose and Maltose", "Glucose and Galactose", "Glucose and Fructose", "Lactose and Maltose"],
+    answer: "Glucose & Fructose"
+  },
+  {
+    question: "Bagasse is used in which industry?",
+    options: ["Textile", "Paper", "Steel", "Plastic"],
+    answer: "Paper Industry"
+  },
+  {
+    question: "Molasses is best raw material for making?",
+    options: ["Alcohol", "Plastic", "Paper", "Rubber"],
+    answer: "Alcohol"
+  },
+  {
+    question: "Methane is present in atmosphere of which planet?",
+    options: ["Mars", "Jupiter", "Saturn", "Neptune"],
+    answer: "Jupiter"
+  },
+  {
+    question: "Which gas is produced by plastic?",
+    options: ["Methane", "Ozone", "Hydrogen", "Polyethylene"],
+    answer: "Polyethylene"
+  },
+  {
+    question: "Which antimicrobial substance is found in blood?",
+    options: ["Hemoglobin", "Thrombin", "Plasma", "Platelets"],
+    answer: "Thrombin"
+  },
+  {
+    question: "Which cells produce antibodies?",
+    options: ["Monocytes", "Lymphocytes", "Erythrocytes", "Platelets"],
+    answer: "Lymphocytes"
+  },
+  {
+    question: "Due to which acid does stale butter smell bad?",
+    options: ["Acetic Acid", "Lactic Acid", "Butyric Acid", "Citric Acid"],
+    answer: "Butyric Acid"
+  },
+  {
+    question: "Which isotope is used in cancer treatment?",
+    options: ["C-12", "U-238", "Co-60", "I-131"],
+    answer: "Co-60"
+  },
+  {
+    question: "City of Ahmedabad is situated on the banks of?",
+    options: ["Sabarmati", "Ganga", "Tapti", "Godavari"],
+    answer: "Sabarmati"
+  },
+  {
+    question: "Sundarbans National Park is located in?",
+    options: ["West Bengal", "Odisha", "Andhra Pradesh", "Tamil Nadu"],
+    answer: "West Bengal"
+  },
+  {
+    question: "Yakshagana is a dance form of which state?",
+    options: ["Kerala", "Karnataka", "Andhra Pradesh", "Tamil Nadu"],
+    answer: "Karnataka"
+  },
+  {
+    question: "Who discovered the electron?",
+    options: ["J.J. Thomson", "Neils Bohr", "Rutherford", "Einstein"],
+    answer: "J.J. Thomson"
+  },
+  {
+    question: "Which Indian scientist invented the Crescograph?",
+    options: ["C.V. Raman", "Homi Bhabha", "Jagadish Chandra Bose", "Satyendra Nath Bose"],
+    answer: "Jagadish Chandra Bose"
+  },
+  {
+    question: "Deficiency of Vitamin B1 causes?",
+    options: ["Pellagra", "Scurvy", "Beriberi", "Rickets"],
+    answer: "Beriberi"
+  },
+  {
+    question: "Which organelle is called the suicide bag of the cell?",
+    options: ["Mitochondria", "Golgi Apparatus", "Lysosomes", "Ribosomes"],
+    answer: "Lysosomes"
+  },
+
+
+  {
+    question: "The Lord's Stadium is associated with which sport?",
+    options: ["Tennis", "Cricket", "Football", "Hockey"],
+    answer: "Cricket"
+  },
+  {
+    question: "Father of Chess is known as?",
+    options: ["Vishwanathan Anand", "Wilhelm Steinitz", "Bobby Fischer", "Magnus Carlsen"],
+    answer: "Wilhelm Steinitz"
+  },
+  {
+    question: "Who wrote 'Hind Swaraj'?",
+    options: ["B.R. Ambedkar", "Jawaharlal Nehru", "Mahatma Gandhi", "Subhash Chandra Bose"],
+    answer: "Mahatma Gandhi"
+  },
+  {
+    question: "Which tribe belongs to Madhya Pradesh?",
+    options: ["Toda", "Mizo", "Gond", "Bhils"],
+    answer: "Gond"
+  },
+  {
+    question: "In which year did the Jallianwala Bagh massacre take place?",
+    options: ["1917", "1918", "1919", "1920"],
+    answer: "1919"
+  },
+  {
+    question: "Who was the founder of Aligarh Muslim University?",
+    options: ["Sir Syed Ahmed Khan", "Maulana Abul Kalam Azad", "Badruddin Tyabji", "S.A. Rahman"],
+    answer: "Sir Syed Ahmed Khan"
+  },
+  {
+    question: "Sattriya dance form originated from which state?",
+    options: ["Kerala", "Assam", "Odisha", "Maharashtra"],
+    answer: "Assam"
   },
   {
     question: "Ganymede is the satellite of which planet?",
@@ -491,6 +653,9 @@ const questions = [
     answer: "Sulphuric acid"
   }
 ];
+
+ 
+
 
  
 
